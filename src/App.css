@@ -1,38 +1,406 @@
 .App {
-  text-align: center;
+    margin: 0;
+    font-size: 12px;
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+    background: #1a1c2d;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menuBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo {
+    padding: 1em;
+    margin-right: 10em;
 }
 
-.App-link {
-  color: #61dafb;
+.menuBar p {
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+    flex: auto;
+    /* , AdobeInvisFont,' MyriadPro-Regular' */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.intro {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("images/neonbrand-426918-unsplash.jpg") top center no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    /* background-color: #ff4200; */
+    color: white;
 }
+
+.intro > .content {
+    margin: 0 18vw;
+    line-height: 1.5;
+    padding: 3em 0;
+}
+
+.intro > .content p {
+    font-size: 2em;
+}
+
+.intro > .content h1 {
+    font-size: 4em;
+}
+
+.demo {
+    background: #fff8ba;
+}
+.demo > .content {
+    padding: 1em 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.demo h4 {
+    font-size: 1.33em;
+    flex-grow: 8;
+    color: #0a0d4f;
+}
+
+.app-store {
+    height: 3em;
+    padding-right: 0.5em;
+}
+
+.section2 > .halfscreen {
+    /* display: flex; */
+    position: relative;
+    height: 100%;
+}
+
+.section2 {
+    background: #0a0d4f;
+    height: 40em;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#motherSon {
+    width: auto;
+    height: 38em;
+    position: absolute;
+    /* max-width: 100%;
+  max-height: 100%; */
+    /* margin: 2em 7em 2em 0; */
+    bottom: -2em;
+    right: 8vw;
+    justify-self: start;
+}
+
+button {
+    background: #fff8ba;
+    text-decoration-color: black;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px orangered;
+    padding: 1em 2em;
+    font-family: inherit;
+    margin: 2em 0;
+    /* max-width: ; */
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section3b {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.screenshotHolder > img {
+    width: 11em;
+}
+
+.screenshotHolder {
+    width: 13em;
+    height: 13em;
+    margin-top: 3em;
+    background: #fff8ba;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.section3grid {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section3grid > p {
+    color: #0a0d4f;
+    font-size: 1.3em;
+    font-weight: 600;
+    max-width: 13em;
+    padding-top: 3em;
+    text-align: center;
+}
+
+.section3grid > img {
+    width: 13em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.section4 {
+    background: #0a0d4f;
+    height: 35em;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.section4 > .halfscreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section4 > .halfscreen > .boxContent {
+    max-width: 30em;
+}
+
+#tablets {
+    width: 100%;
+    height: auto;
+    margin: 2em 7em 2em 0;
+    flex: 1;
+    justify-self: start;
+}
+
+.section5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.halfscreen {
+    width: 50%;
+    flex: 1;
+}
+
+.section5 > img {
+    width: 50%;
+    height: auto;
+    background-size: cover;
+}
+
+.section5Content {
+    flex: 1;
+}
+
+.section5Content > .boxContent {
+    padding-left: 10%;
+    padding-right: 15%;
+}
+
+.boxContent {
+    max-width: 40em;
+    padding-top: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+.boxContent > h2 {
+    color: #0a0d4f;
+    font-size: 2em;
+    margin: 0;
+}
+
+.boxContent > h3 {
+    font-size: 1.55em;
+    margin: 0;
+    padding-bottom: 1em;
+}
+.boxContent > h4 {
+    font-size: 1.33em;
+}
+
+.section6 {
+    display: flex;
+    align-items: center;
+}
+.section6Content {
+    flex: 1;
+}
+
+.section6Content > .boxContent {
+    padding-right: 5%;
+    padding-left: 15%;
+}
+.section6 > .half {
+    background: url("images/Teacher-with-students.jpg") right no-repeat;
+    background-size: cover;
+    /* background-image:
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: auto 100%;
+    // any width but full height shown
+ */
+    width: 50%;
+    flex: 1;
+}
+.section6 > img {
+    width: 50%;
+    height: auto;
+    background-size: cover;
+}
+
+.section7 {
+    background: #0a0d4f;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.section7 > .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.review {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    text-align: center;
+    margin: 5em 0;
+}
+
+.review > p {
+    padding: 2em;
+    margin: 0;
+}
+
+.circularMask {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+}
+
+.reviewpic1 {
+    background: url("images/Man-making-selfie-outdoor@1X.jpg") center;
+    background-size: cover;
+}
+
+.reviewpic2 {
+    background: url("images/Young.jpg") center;
+    background-size: cover;
+}
+.reviewpic3 {
+    background: url("images/Businesswoman.jpg") center;
+    background-size: cover;
+}
+
+.section8 {
+    background: url("images/Happy-mother.png") center no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5em;
+    height: auto;
+}
+
+.section8content {
+    margin: 0 18vw;
+    padding: 5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer {
+    background: #1a1c2d;
+}
+
+.content {
+    margin: 0 12vw;
+}
+.footerContent {
+    padding: 5em 0;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footerContent ul {
+    padding: 0;
+    list-style: none;
+    flex: 2;
+}
+
+.footerContent li {
+    line-height: 2;
+    font-weight: 500;
+}
+.social {
+    flex: 4;
+}
+
+.socialList {
+    display: flex;
+    flex-direction: row;
+}
+.circularMaskSmall {
+    width: 3em;
+    height: 3em;
+    background: #fff8ba;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5em;
+}
+
+.circularMaskSmall img {
+    height: 1.5em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .halfscreen {
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
