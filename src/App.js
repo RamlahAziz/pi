@@ -25,23 +25,24 @@ import "./App.css";
 
 // STYLED COMPONENTS
 // import styled from 'styled-components'
-//styled component Li 
-// const Li = styled.li` 
-//   color : blue; 
-//   font-size : 23px 
-// ` 
+//styled component Li
+// const Li = styled.li`
+//   color : blue;
+//   font-size : 23px
+// `
 
+// NODE-SASS
 
 // fill in alts
 // components, props, styles
 
 function App() {
     return (
-        <div className="App">
+        <div className='App'>
             <header>
-                <div className="menuBar content">
-                    <div className="logo">
-                        <img src={logo} alt="" />
+                <div className='menuBar content'>
+                    <div className='logo'>
+                        <img src={logo} alt='' />
                     </div>
                     {/* ul, li, anchor tags */}
                     <p>Why picturepath</p>
@@ -54,9 +55,9 @@ function App() {
                 </div>
             </header>
             {/* section tag */}
-            <div className="section1">
-                <div className="intro">
-                    <div className="content">
+            <div className='section1'>
+                <div className='intro'>
+                    <div className='content'>
                         <h1>
                             Visual timelines for children with Autism Autism
                             Autism
@@ -69,28 +70,28 @@ function App() {
                         <button>Our Products</button>
                     </div>
                 </div>
-                <div className="demo">
-                    <div className="content">
+                <div className='demo'>
+                    <div className='content'>
                         <h4>
                             You can request a demo or download and start using
                             picturepath
                         </h4>
                         <img
-                            className="app-store"
+                            className='app-store'
                             src={googlePlayBadge}
-                            alt=""
+                            alt=''
                         />
-                        <img className="app-store" src={appStoreBadge} alt="" />
+                        <img className='app-store' src={appStoreBadge} alt='' />
                     </div>
                 </div>
             </div>
 
-            <div className="section2">
-                <div className="halfscreen">
-                    <img id="motherSon" src={motherSon} alt="" />
+            <div className='section2'>
+                <div className='halfscreen'>
+                    <img id='motherSon' src={motherSon} alt='' />
                 </div>
-                <div className="halfscreen">
-                    <div className="boxContent">
+                <div className='halfscreen'>
+                    <div className='boxContent'>
                         <h3>
                             picturepath allows you to see the day in their way
                         </h3>
@@ -104,44 +105,44 @@ function App() {
                 </div>
             </div>
 
-            <div className="section3 content">
-                <div className="section3grid">
+            <div className='section3 content'>
+                <div className='section3grid'>
                     <p>Mobile app for parents</p>
-                    <div className="screenshotHolder">
-                        <img src={phoneScreen1} alt="" />
+                    <div className='screenshotHolder'>
+                        <img src={phoneScreen1} alt='' />
                     </div>
                 </div>
-                <div className="section3grid">
+                <div className='section3grid'>
                     <p>Mobile app for children</p>
-                    <div className="screenshotHolder">
-                        <img src={phoneScreen2} alt="" />
+                    <div className='screenshotHolder'>
+                        <img src={phoneScreen2} alt='' />
                     </div>
                 </div>
-                <div className="section3grid">
+                <div className='section3grid'>
                     <p>Web app for schools</p>
-                    <div className="screenshotHolder">
-                        <img src={phoneScreen3} alt="" />
+                    <div className='screenshotHolder'>
+                        <img src={phoneScreen3} alt='' />
                     </div>
                 </div>
             </div>
-            <div className="section3b content">
-                <div className="section3grid">
+            <div className='section3b content'>
+                <div className='section3grid'>
                     <p>Easy to use timeline planning</p>
-                    <img src={screenshot2} alt="" />
+                    <img src={screenshot2} alt='' />
                 </div>
-                <div className="section3grid">
+                <div className='section3grid'>
                     <p>Link your home and school timelines</p>
-                    <img src={screenshot} alt="" />
+                    <img src={screenshot} alt='' />
                 </div>
-                <div className="section3grid">
+                <div className='section3grid'>
                     {" "}
                     <p>100’s of activities to choose from</p>
-                    <img src={screenshot} alt="" />
+                    <img src={screenshot} alt='' />
                 </div>
             </div>
-            <div className="section4">
-                <div className="halfscreen">
-                    <div className="boxContent">
+            <div className='section4'>
+                <div className='halfscreen'>
+                    <div className='boxContent'>
                         <h3>Use picturepath across multiple devices</h3>
                         <h4>
                             With picturepath you can customise a convenient
@@ -151,22 +152,22 @@ function App() {
                         <button>See more features</button>
                     </div>
                 </div>
-                <div className="halfscreen">
+                <div className='halfscreen'>
                     <img
-                        id="tablets"
+                        id='tablets'
                         src={tablets}
-                        alt=""
-                        width="555"
-                        height="277"
+                        alt=''
+                        width='555'
+                        height='277'
                     />
                     {/* don't use id, use classname */}
                 </div>
             </div>
-            <div className="section5">
-                <img src={motherChildren} alt=""></img>
-                <div class="half"></div>
-                <div className="section5Content">
-                    <div className="boxContent">
+            <div className='section5'>
+                <img src={motherChildren} alt=''></img>
+                <div class='half'></div>
+                <div className='section5Content'>
+                    <div className='boxContent'>
                         <h2>Why use picturepath mobile app app app app app</h2>
                         <h4>
                             With picturepath you can customise a convenient
@@ -180,9 +181,9 @@ function App() {
                     </div>
                 </div>
             </div>
-            <div className="section6">
-                <div className="section6Content">
-                    <div className="boxContent">
+            <div className='section6'>
+                <div className='section6Content'>
+                    <div className='boxContent'>
                         <h2>Why use picturepath mobile app app app app app</h2>
                         <h4>
                             With picturepath you can customise a convenient
@@ -197,36 +198,36 @@ function App() {
                 </div>
                 <img src={TeacherStudent} />
             </div>
-            <div className="section7">
-                <div className="content">
-                    <div className="review">
-                        <div className="circularMask reviewpic1"></div>
+            <div className='section7'>
+                <div className='content'>
+                    <div className='review'>
+                        <div className='circularMask reviewpic1'></div>
                         <p>
                             “Picturepath is less time consuming (than the
                             current system we use) and the children like it more
                             because it's on an iPad”
                         </p>
-                        <p className="end">Jo Sheldon SEN Teacher</p>
+                        <p className='end'>Jo Sheldon SEN Teacher</p>
                     </div>
-                    <div className="review">
-                        <div className="circularMask reviewpic2"></div>
+                    <div className='review'>
+                        <div className='circularMask reviewpic2'></div>
 
                         <p>“I love ticking off the activities”</p>
-                        <p className="end">Freddie Age 6</p>
+                        <p className='end'>Freddie Age 6</p>
                     </div>
-                    <div className="review">
-                        <div className="circularMask reviewpic3"></div>
+                    <div className='review'>
+                        <div className='circularMask reviewpic3'></div>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam
                         </p>
-                        <p className="end">Mrs Bradshaw Teacher</p>
+                        <p className='end'>Mrs Bradshaw Teacher</p>
                     </div>
                 </div>
             </div>
-            <div className="section8">
-                <div className="section8content">
+            <div className='section8'>
+                <div className='section8content'>
                     <h1>
                         Why not try our premium version which is packed full of
                         additional features
@@ -237,22 +238,22 @@ function App() {
                         their day
                     </p>
                     <button>See premium features</button>
-                    <div className="social">
+                    <div className='social'>
                         <img
-                            className="app-store"
-                            src="images/google-play-badge.png"
-                            alt=""
+                            className='app-store'
+                            src='images/google-play-badge.png'
+                            alt=''
                         />
                         <img
-                            className="app-store"
-                            src="images/app-store-badge.png"
-                            alt=""
+                            className='app-store'
+                            src='images/app-store-badge.png'
+                            alt=''
                         />
                     </div>
                 </div>
             </div>
-            <div className="footer">
-                <div className="footerContent content">
+            <div className='footer'>
+                <div className='footerContent content'>
                     {/* anchor tag */}
                     <ul>
                         <li>Why use picturepath</li>
@@ -280,20 +281,20 @@ function App() {
                         <li>Privacy Policy</li>
                         <li>Terms & Conditions</li>
                     </ul>
-                    <div className="social">
+                    <div className='social'>
                         <p>Follow us</p>
-                        <div className="socialList">
-                            <div className="circularMaskSmall">
-                                <img src={facebookIcon} alt="" />
+                        <div className='socialList'>
+                            <div className='circularMaskSmall'>
+                                <img src={facebookIcon} alt='' />
                             </div>
-                            <div className="circularMaskSmall">
-                                <img src={twitterIcon} alt="" />
+                            <div className='circularMaskSmall'>
+                                <img src={twitterIcon} alt='' />
                             </div>
-                            <div className="circularMaskSmall">
-                                <img src={youtubeIcon} alt="" />
+                            <div className='circularMaskSmall'>
+                                <img src={youtubeIcon} alt='' />
                             </div>
-                            <div className="circularMaskSmall">
-                                <img src={instagramIcon} alt="" />
+                            <div className='circularMaskSmall'>
+                                <img src={instagramIcon} alt='' />
                             </div>
                         </div>
                     </div>
